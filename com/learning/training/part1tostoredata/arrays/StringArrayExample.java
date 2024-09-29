@@ -3,7 +3,7 @@ package com.learning.training.part1tostoredata.arrays;
 public class StringArrayExample {
 
     public static void main(String[] args) {
-
+        //We will cover string in a separate section
         // creating an array
         String[] strAr1 = new String[3];
         strAr1[0] = "sachin";
