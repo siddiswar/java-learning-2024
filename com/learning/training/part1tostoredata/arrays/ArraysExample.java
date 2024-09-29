@@ -3,7 +3,7 @@ package com.learning.training.part1tostoredata.arrays;
 public class ArraysExample {
     public static void main(String[] args) {
 
-        int[] myIntArray1 = {100, 90};
+        int[] myIntArray1 = {100, 90, 45};
 
         System.out.println("0 index: " + myIntArray1[0]);
         System.out.println("1st index: " + myIntArray1[1]);
