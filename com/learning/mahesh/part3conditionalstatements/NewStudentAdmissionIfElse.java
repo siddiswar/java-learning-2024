@@ -1,4 +1,4 @@
-package com.learning.mahesh;
+package com.learning.mahesh.part3conditionalstatements;
 
 public class NewStudentAdmissionIfElse {
     public static void main(String[] args) {
