@@ -1,4 +1,4 @@
-package com.learning.mahesh;
+package com.learning.mahesh.part2operaters;
 
 public class OperatersPractice {
     int numberofstudentsinschool = 570;
