@@ -1,6 +1,6 @@
-package com.learning.mahesh;
+package com.learning.mahesh.part3conditionalstatements;
 
-public class LoopsPractice {
+public class WhileLoopForVoters {
     public static void main(String[] args) {
         int ageA = 20;
         int ageB = 23;
