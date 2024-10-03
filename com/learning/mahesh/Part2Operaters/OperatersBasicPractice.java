@@ -13,5 +13,11 @@ public class OperatersBasicPractice {
         System.out.println((A + B) + (C + D) /C);
         System.out.println((A + B) % C / D*A - B-A);
 
+        System.out.println("      jj        aa    v       v     aa ");
+        System.out.println("      jj       a  a    v     v     a  a");
+        System.out.println("      jj      aaaaaa    v   v     aaaaaa");
+        System.out.println(" jj   jj     a      a    v v     a      a");
+        System.out.println("  jjjjj     a        a    v     a        a");
+
     }
 }
