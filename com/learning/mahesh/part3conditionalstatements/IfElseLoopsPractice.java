@@ -1,6 +1,6 @@
 package com.learning.mahesh.part3conditionalstatements;
 
-public class IfElseForSecDivision {
+public class IfElseLoopsPractice {
     public static void main(String[] args) {
         int studentA = 66;
         int studentB = 72;
@@ -24,11 +24,11 @@ public class IfElseForSecDivision {
             while (i < args.length)
             if (studentsmarks[i] >= i1 ) {
                 System.out.println("student above 80 " + studentsmarks[i] + "this student is in sec A.");
-            }if (studentsmarks[i] >= i2 ) {
+            }else if (studentsmarks[i] >= i2 ) {
             System.out.println("student above 70 " + studentsmarks[i] + "this student is in sec B.");
-            }if (studentsmarks[i] >= i3 ) {
+            } else  if (studentsmarks[i] >= i3 ) {
             System.out.println("student above 60 " + studentsmarks[i] + "this student is in sec C.");
-            }if (studentsmarks[i] >= i4 ) {
+            }else if (studentsmarks[i] >= i4 ) {
             System.out.println("student above 80 " + studentsmarks[i] + "this student is in sec D.");
         }
             i++;
