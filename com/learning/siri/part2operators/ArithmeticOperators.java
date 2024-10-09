@@ -41,5 +41,6 @@ public class ArithmeticOperators {
         d /=19; //d=d/19
         System.out.println(d);
 
+
     }
 }
