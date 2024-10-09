@@ -2,7 +2,7 @@ package com.learning.mahesh.part3conditionalstatements;
 
 public class WhileLoopForPensionScheme {
     public static void main(String[] args) {
-        // People's ages
+
         int personA = 65;
         int personB = 62;
         int personC = 67;

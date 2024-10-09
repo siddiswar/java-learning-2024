@@ -21,7 +21,7 @@ public class IfElseLoopsPractice {
             int i3 =60;
             int i4 =50;
 
-            while (i < args.length)
+            while (i <studentsmarks.length)
             if (studentsmarks[i] >= i1 ) {
                 System.out.println("student above 80 " + studentsmarks[i] + "this student is in sec A.");
             }else if (studentsmarks[i] >= i2 ) {
