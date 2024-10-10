@@ -4,8 +4,8 @@ public class PrimitiveVariables {
 
     public static void main(String[] args){
 
-        byte bytevariable = 100;
-        System.out.println("byte value: " + bytevariable);
+        byte byteVariable = 100;
+        System.out.println("byte value: " + byteVariable);
 
         short shortvariable = 1000;
         System.out.println("short value: " + shortvariable);
