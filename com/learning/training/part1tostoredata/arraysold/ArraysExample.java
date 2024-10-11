@@ -1,4 +1,4 @@
-package com.learning.training.part1tostoredata.arrays;
+package com.learning.training.part1tostoredata.arraysold;
 
 public class ArraysExample {
     public static void main(String[] args) {
