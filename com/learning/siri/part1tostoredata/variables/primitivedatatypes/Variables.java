@@ -1,6 +1,6 @@
 package com.learning.siri.part1tostoredata.variables.primitivedatatypes;
 
-public class variables {
+public class Variables {
 
     public static void main (String[] args){
 
