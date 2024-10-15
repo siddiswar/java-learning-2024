@@ -59,7 +59,7 @@ public class BankAccount {
         System.out.println(siriAccount.accountBalance);
         System.out.println(siriAccount.maxWithdrawLimit);
 
-        siriAccount.deposit(-2);
+        siriAccount.deposit(5);
         siriAccount.deposit(35000);
         System.out.println(siriAccount.accountBalance);
         siriAccount.deposit(55000);
