@@ -1,6 +1,7 @@
-package com.learning.siri.part5oops.staticmethods;
+package com.learning.siri.part5classandobjectbasics.staticmethods;
 
-public class MainMethodDetailsExample {
+public class MainMethodDetails {
+
     public static void main(String[] args) {
 
         for (String eachArg : args) {
@@ -8,4 +9,3 @@ public class MainMethodDetailsExample {
         }
     }
 }
-

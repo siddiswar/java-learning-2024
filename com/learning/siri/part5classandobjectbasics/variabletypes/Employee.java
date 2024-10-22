@@ -1,4 +1,4 @@
-package com.learning.siri.part5oops.variabletypes;
+package com.learning.siri.part5classandobjectbasics.variabletypes;
 
 public class Employee {
 

@@ -8,67 +8,57 @@ public class Employee {
     int rating;
     int holidaysTaken;
 
-    //Constructor
-    Employee(String givenName, long givenEmpId, int givenRating, int givenHolidaysTaken) {
-        name = givenName;
+    // Constructor
+    Employee(String giveName,long givenEmpId, int givenRating, int givenholidaysTaken){
+        name = giveName;
         empId = givenEmpId;
         rating = givenRating;
-        holidaysTaken = givenHolidaysTaken;
+        holidaysTaken = givenholidaysTaken;
     }
-
     //Behaviour (methods)
 
-    public long getEmpBonus() {
+
+    public long getEmpBonus(){
         long empBonus = 0;
-        if (holidaysTaken == 0) {
+        if(holidaysTaken == 0) {
             empBonus = 10000;
-        } else {
+        }else{
             empBonus = 5000;
         }
         return empBonus;
     }
 
-    public double getEmployeeHike() {
+    public double getEmployeeHike(){
         double empHike = 0;
-        if (rating >= 4) {
+        if(rating >=4){
             empHike = 10;
-        } else if (rating >= 3 && rating < 4) {
+        } else if (rating >= 3 && rating < 4){
             empHike = 8;
-        } else {
+        }else{
             empHike = 5;
         }
-        return empHike;
+
+        return  empHike;
     }
 
-    public static void main(String[] args) {
-        //Creating an object
-        Employee siri = new Employee("Sirisha Deevi", 1, 4, 10);
-        //To access variables(data) for the object
-        System.out.println(siri.name);
-        System.out.println(siri.empId);
-        System.out.println(siri.holidaysTaken);
-        System.out.println(siri.rating);
+    public static void main(String[] args){
+        // Creating an Object
+        Employee sirisha = new Employee( "Sirisha deevi", 1,4,10);
+        //To access variables(data)for the object
+        System.out.println(sirisha.name);
+        System.out.println(sirisha.empId);
+        System.out.println(sirisha.holidaysTaken);
+        System.out.println(sirisha.rating);
 
-        //To access methods(behaviour) of the object
-        long siriBonus = siri.getEmpBonus();
-        System.out.println(siriBonus);
+        //TO access method(behaviour)of the object
+        long sirishaBonus = sirisha.getEmpBonus();
+        System.out.println(sirishaBonus);
 
-        double siriHike = siri.getEmployeeHike();
-        System.out.println(siriHike);
 
-        System.out.println("-------------------------------------");
-        //Create another object
-        Employee mahesh = new Employee("Mahesh", 2, 5, 5);
-        System.out.println(mahesh.name);
-        System.out.println(mahesh.empId);
-        System.out.println(mahesh.holidaysTaken);
-        System.out.println(mahesh.rating);
+        double sirishaHike =sirisha.getEmployeeHike();
+        System.out.println(sirishaHike);
 
-        //To access methods(behaviour) of the object
-        long maheshBonus = mahesh.getEmpBonus();
-        System.out.println(maheshBonus);
 
-        double maheshHike = mahesh.getEmployeeHike();
-        System.out.println(maheshHike);
+
     }
 }

@@ -1,4 +1,4 @@
-package com.learning.siri.part5oops;
+package com.learning.siri.part5classandobjectbasics;
 
 public class PostalSavingAccount {
 

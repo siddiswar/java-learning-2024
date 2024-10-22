@@ -1,4 +1,4 @@
-package com.learning.siri.part5oops.staticmethods;
+package com.learning.siri.part5classandobjectbasics.staticmethods;
 
 public class EmpExample {
 
