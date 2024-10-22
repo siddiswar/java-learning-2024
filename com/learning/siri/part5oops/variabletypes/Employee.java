@@ -10,7 +10,7 @@ public class Employee {
     private int yrsOfExperience;
     private double salary;
     private boolean hasFinishedProbation;
-    private static String ceoName = "Ratan Tata";
+    public static String ceoName = "Ratan Tata";
     private static final String COMPANY_NAME = "TCS";
 
 
@@ -67,11 +67,13 @@ public class Employee {
 
     public static void main(String[] args) {
 
+        System.out.println(Employee.ceoName);
+        System.out.println(Employee.COMPANY_NAME);
+
         Employee siri = new Employee(1, "Siri", 3, 50000, true);
         siri.getNoticePeriodInMonths();
         siri.calculateBonusAmount();
         System.out.println(siri.empId);
-
 
 
         System.out.println("--------------------------------------------------");
