@@ -1,4 +1,4 @@
-package com.learning.training.part5oops.oopsbasics.staticmethods;
+package com.learning.training.part5classandobjectbasics.staticmethods;
 
 public class Emp {
 

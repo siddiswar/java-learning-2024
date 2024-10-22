@@ -1,4 +1,4 @@
-package com.learning.training.part5oops.oopsbasics.methods;
+package com.learning.training.part5classandobjectbasics.methods;
 
 public class Store {
     int storeId;

@@ -1,4 +1,4 @@
-package com.learning.training.part5oops.oopsbasics.variabletypes;
+package com.learning.training.part5classandobjectbasics.variabletypes;
 
 public class Employee {
 

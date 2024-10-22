@@ -1,4 +1,4 @@
-package com.learning.training.part5oops.oopsbasics.constructors;
+package com.learning.training.part5classandobjectbasics.constructors;
 
 public class Car {
 

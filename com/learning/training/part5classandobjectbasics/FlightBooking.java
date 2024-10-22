@@ -1,4 +1,4 @@
-package com.learning.training.part5oops.oopsbasics;
+package com.learning.training.part5classandobjectbasics;
 
 public class FlightBooking {
 
