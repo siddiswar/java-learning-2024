@@ -1,4 +1,4 @@
-package com.learning.siri.part5oops.methods;
+package com.learning.siri.part5classandobjectbasics.methods;
 
 public class StoreInventory {
 
