@@ -1,4 +1,4 @@
-package com.learning.mahesh.part5classandobjectbasics.gettersandsetters;
+package com.learning.mahesh.part5oops.oopsbasics;
 
 public class Person {
 
