@@ -1,4 +1,4 @@
-package com.learning.mahesh.part5classandobjectsbasics.variabletypes;
+package com.learning.mahesh.part5.oopsbasics;
 
 public class BankAccount {
 
