@@ -3,7 +3,7 @@ package com.learning.training.part5classandobjectbasics.gettersandsetters;
 public class Student {
 
     //Member Variables
-    public int studentId;
+    private int studentId;
     private int studentAge;
 
     //Getters and Setters are nothing but member methods with a special purpose
@@ -26,6 +26,5 @@ public class Student {
             System.out.println("Invalid age supplied : " + studentAge);
             this.studentAge = 0;
         }
-
     }
 }

@@ -1,4 +1,4 @@
-package com.learning.mahesh.part5.oopsbasics;
+package com.learning.mahesh.part5oops.oopsbasics;
 
 public class GovtPensionScheme {
 
