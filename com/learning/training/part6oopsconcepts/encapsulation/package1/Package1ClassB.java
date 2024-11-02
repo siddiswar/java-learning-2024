@@ -12,3 +12,4 @@ public class Package1ClassB {
         }
 
 }
+
