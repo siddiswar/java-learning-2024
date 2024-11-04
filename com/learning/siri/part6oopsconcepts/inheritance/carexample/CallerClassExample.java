@@ -1,4 +1,4 @@
-package com.learning.siri.part6oopsconcepts.carexample;
+package com.learning.siri.part6oopsconcepts.inheritance.carexample;
 
 public class CallerClassExample {
         public static void main(String[] args) {

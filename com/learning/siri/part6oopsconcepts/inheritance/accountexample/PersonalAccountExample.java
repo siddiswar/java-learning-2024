@@ -1,4 +1,4 @@
-package com.learning.siri.part6oopsconcepts.accountexample;
+package com.learning.siri.part6oopsconcepts.inheritance.accountexample;
 
 
 public class PersonalAccountExample extends Account {

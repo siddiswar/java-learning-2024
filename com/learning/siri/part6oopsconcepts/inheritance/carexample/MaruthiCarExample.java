@@ -1,4 +1,4 @@
-package com.learning.siri.part6oopsconcepts.carexample;
+package com.learning.siri.part6oopsconcepts.inheritance.carexample;
 
 import com.learning.training.part6oopsconcepts.inheritance.carexample.Car;
 
