@@ -1,6 +1,6 @@
-package com.learning.siri.part6oopsconcepts.package1;
+package com.learning.siri.part6oopsconcepts.encapsulation.package1;
 
-public class package1ClassAExample {
+public class Package1ClassAExample {
 
         private String privateVar;
         protected String protectedVar;
