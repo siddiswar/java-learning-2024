@@ -11,12 +11,10 @@ public class BusinessAccount extends Account {
         this.companyName = companyName;
     }
 
-
     public void calculateGst() {
-
     }
 
     public void fileBusinessIncomeTax() {
 
-    }
+    };
 }
