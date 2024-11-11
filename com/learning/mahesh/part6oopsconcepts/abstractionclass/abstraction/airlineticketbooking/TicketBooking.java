@@ -1,4 +1,4 @@
-package com.learning.mahesh.part6oopsconcepts.abstraction.airlinesticketbooking;
+package com.learning.mahesh.part6oopsconcepts.abstractionclass.abstraction.airlineticketbooking.TicketBooking;
 
 public abstract class TicketBooking {
 

@@ -1,9 +1,9 @@
-package com.learning.mahesh.part6oopsconcepts.abstraction.airlinesticketbooking;
+package com.learning.mahesh.part6oopsconcepts.abstractionclass.abstraction.airlineticketbooking.automobilefeature;
 
-public abstract class AirIndia extends TicketBooking {
-    public double ticketPrice;
+public abstract class Vistara extends TicketBooking {
+    public double ticketPrice;  // Changed to double for compatibility with discount calculation
 
-    public AirIndia(int passengerage, char gender, String profession, String tickettype, double ticketPrice) {
+    public Vistara(int passengerage, char gender, String profession, String tickettype, double ticketPrice) {
         super(passengerage, gender, profession, tickettype);
         this.ticketPrice = ticketPrice;
     }
@@ -11,19 +11,20 @@ public abstract class AirIndia extends TicketBooking {
     public double calculateDiscount() {
         double discount = 0.0;
 
-
         if (profession.equalsIgnoreCase("Armed Forces")) {
-            discount = 0.20;
+            discount = 0.25;
         } else if (profession.equalsIgnoreCase("Police")) {
-            discount = 0.15;
+            discount = 0.16;
         }
+
+
         return ticketPrice - (ticketPrice * discount);
     }
 
     public int determineTicketType() {
-        if (ticketPrice <= 200) {
+        if (ticketPrice <= 250) {
             System.out.println("Ticket type: Economy");
-        } else if (ticketPrice <= 500) {
+        } else if (ticketPrice <= 560) {
             System.out.println("Ticket type: Business");
         } else {
             System.out.println("Ticket type: First Class");
