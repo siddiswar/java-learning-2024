@@ -1,9 +1,11 @@
-package com.learning.mahesh.part6oopsconcepts.abstraction.airlinesticketbooking;
+package com.learning.mahesh.part6oopsconcepts.abstractionclass.abstraction.airlineticketbooking.AirIndia;
 
-public abstract class Qatar extends TicketBooking {
-    public double ticketPrice = 0;
+import com.learning.mahesh.part6oopsconcepts.abstractionclass.abstraction.airlineticketbooking.TicketBooking;
 
-    public Qatar(int passengerage, char gender, String profession, String tickettype, double ticketPrice) {
+public abstract class AirIndia extends TicketBooking {
+    public double ticketPrice;
+
+    public AirIndia(int passengerage, char gender, String profession, String tickettype, double ticketPrice) {
         super(passengerage, gender, profession, tickettype);
         this.ticketPrice = ticketPrice;
     }
@@ -12,12 +14,11 @@ public abstract class Qatar extends TicketBooking {
         double discount = 0.0;
 
 
-        if (super.profession.equalsIgnoreCase("Armed Forces")) {
-            discount = 0.10;
-        } else if (super.profession.equalsIgnoreCase("Police")) {
-            discount = 0.09;
+        if (profession.equalsIgnoreCase("Armed Forces")) {
+            discount = 0.20;
+        } else if (profession.equalsIgnoreCase("Police")) {
+            discount = 0.15;
         }
-
         return ticketPrice - (ticketPrice * discount);
     }
 

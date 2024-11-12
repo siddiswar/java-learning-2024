@@ -1,4 +1,6 @@
-package com.learning.mahesh.part6oopsconcepts.abstraction.automobilefeature;
+package com.learning.mahesh.part6oopsconcepts.abstractionclass.abstraction.automobile;
+
+import com.learning.mahesh.part6oopsconcepts.abstractionclass.abstraction.automobile.VehicleFeature;
 
 public abstract class NexonBase extends VehicleFeature {
 

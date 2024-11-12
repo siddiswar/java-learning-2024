@@ -1,4 +1,4 @@
-package com.learning.mahesh.part6oopsconcepts.abstraction.automobilefeature;
+package com.learning.mahesh.part6oopsconcepts.abstractionclass.abstraction.automobile;
 
 public abstract class VehicleFeature {
     public String sunroof;
