@@ -1,4 +1,4 @@
-package com.learning.mahesh.part6oopsconcepts.abstractionclass.abstraction.airlineticketbooking.Qatar;
+package com.learning.mahesh.part6oopsconcepts.abstractionclass.abstraction.airlineticketbooking;
 
 import com.learning.mahesh.part6oopsconcepts.abstractionclass.abstraction.airlineticketbooking.TicketBooking;
 
