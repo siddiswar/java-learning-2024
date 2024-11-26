@@ -1,4 +1,4 @@
-package com.learning.mahesh.part6oopsconcepts.abstractionclass.abstraction.airlineticketbooking.automobilefeature;
+package com.learning.mahesh.part6oopsconcepts.abstractionclass.abstraction.airlineticketbooking;
 
 public abstract class Vistara extends TicketBooking {
     public double ticketPrice;  // Changed to double for compatibility with discount calculation

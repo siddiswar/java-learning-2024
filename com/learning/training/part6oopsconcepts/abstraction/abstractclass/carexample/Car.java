@@ -2,7 +2,7 @@ package com.learning.training.part6oopsconcepts.abstraction.abstractclass.carexa
 
 public abstract class Car {
 
-    //Concrete methods are the methods which have method body
+
     public void startTheCar(){
         System.out.println("Car started");
     }
@@ -15,7 +15,7 @@ public abstract class Car {
         System.out.println("Lights turned on");
     }
 
-    //abstract method is a method which has no method body
+
     public abstract void gearTransmission();
 
 

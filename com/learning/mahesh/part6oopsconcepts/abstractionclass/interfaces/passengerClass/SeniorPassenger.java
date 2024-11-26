@@ -1,4 +1,6 @@
-package com.learning.mahesh.part6oopsconcepts.abstractionclass.interfaces;
+package com.learning.mahesh.part6oopsconcepts.abstractionclass.interfaces.passengerClass;
+
+import com.learning.mahesh.part6oopsconcepts.abstractionclass.interfaces.passengerClass.Passenger;
 
 public class SeniorPassenger implements Passenger {
     private int seatNumber;
