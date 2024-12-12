@@ -1,4 +1,4 @@
-package com.learning.training.part1tostoredata.variables.primitivedatatypes;
+package com.learning.training.part1tostoredata.primitivedatatypes;
 
 public class PrimitiveVariables {
 
