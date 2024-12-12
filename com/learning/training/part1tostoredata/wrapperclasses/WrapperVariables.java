@@ -1,4 +1,4 @@
-package com.learning.training.part1tostoredata.variables.nonprimitivedatatypes;
+package com.learning.training.part1tostoredata.wrapperclasses;
 
 public class WrapperVariables {
 
