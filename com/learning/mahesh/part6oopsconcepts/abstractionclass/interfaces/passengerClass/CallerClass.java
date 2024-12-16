@@ -1,4 +1,4 @@
-package com.learning.mahesh.part6oopsconcepts.abstractionclass.interfaces;
+package com.learning.mahesh.part6oopsconcepts.abstractionclass.interfaces.passengerClass;
 
 public class CallerClass {
     public static void main(String[] args) {
