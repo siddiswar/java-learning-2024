@@ -12,6 +12,7 @@ public class ArrayReverse {
         System.out.println("\nReversed array:");
         for (int i = numbers.length - 1; i >= 0; i--) {
             System.out.print(numbers[i] + " ");
+
         }
     }
 }
